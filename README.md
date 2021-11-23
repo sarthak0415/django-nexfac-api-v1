@@ -32,5 +32,12 @@ Password: coffee@321
 
 
 ### Tasks left -
-1. Add support for independent tasks
-2. Return tasks for users, currently only user details are returned
+[X] Add support for independent tasks
+[X] Return tasks for users, currently only user details are returned
+
+### Git
+rm -rf .git
+git init
+git add .
+git commit -m "First commit"
+git remote add origin https://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@github.com/sarthak0415/django-nexfac-api-v1.git

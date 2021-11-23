@@ -8,6 +8,10 @@ from .serializers import UserSerializer
 
 class UserTasksView(viewsets.ModelViewSet):
     queryset = User.objects.all().order_by('name')
+    print('====')
+    for user in queryset:
+        print(user)
+    print('====')
     serializer_class = UserSerializer
 
 
